@@ -3479,8 +3479,11 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 768px) {
-  :not(.card, .modal) > form {
+  form {
     max-width: 31.25rem;
+  }
+  .card form, .modal form {
+    max-width: initial;
   }
 }
 .btn {
