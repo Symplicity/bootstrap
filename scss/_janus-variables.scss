@@ -2,6 +2,8 @@
 
 // Import variables from Janus design tokens
 @import "../node_modules/@symplicity/janus-tokens/dist/index";
+
+// Import Source Sans Pro from Google Fonts
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 
 // Custom color palette
@@ -26,6 +28,10 @@ $theme-colors: (
   "dark": $dark,
 );
 
+// Set font stack to use Source Sans Pro
 $font-family-sans-serif: $janus-font-stack-base;
+
+$alert-padding-x: $janus-alert-padding-x;
+$alert-padding-y: $janus-alert-padding-y;
 
 /* stylelint-enable */
