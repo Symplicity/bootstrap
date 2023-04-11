@@ -1,12 +1,12 @@
 @import "mixins/banner";
 @include bsBanner("");
 
-
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
 @import "variables";
 @import "variables-dark";
+@import "janus-variables";
 @import "maps";
 @import "mixins";
 @import "utilities";

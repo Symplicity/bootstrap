@@ -1,0 +1,29 @@
+/* stylelint-disable */
+
+// Import variables from Janus design tokens
+@import "../node_modules/@symplicity/janus-tokens/dist/index";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+// Custom color palette
+$primary: $janus-color-primary;
+$secondary: $janus-color-secondary;
+$success: $janus-color-success;
+$info: $janus-color-info;
+$warning: $janus-color-warning;
+$danger: $janus-color-danger;
+$light: $gray-100;
+$dark: $gray-800;
+
+// Update the theme colors map with your custom colors
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+/* stylelint-enable */
