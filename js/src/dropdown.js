@@ -292,7 +292,7 @@ class Dropdown extends BaseComponent {
   }
 
   _detectNavbar() {
-    return this._element.closest(`.${CLASS_NAME_NAVBAR}`) !== null
+    return this._element?.closest(`.${CLASS_NAME_NAVBAR}`) !== null
   }
 
   _getOffset() {
