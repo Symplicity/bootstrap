@@ -88,28 +88,32 @@
     },
 
     prev(element, selector) {
-      let previous = element.previousElementSibling;
+      if (element) {
+        let previous = element.previousElementSibling;
 
-      while (previous) {
-        if (previous.matches(selector)) {
-          return [previous];
+        while (previous) {
+          if (previous.matches(selector)) {
+            return [previous];
+          }
+
+          previous = previous.previousElementSibling;
         }
-
-        previous = previous.previousElementSibling;
       }
 
       return [];
     },
 
     next(element, selector) {
-      let next = element.nextElementSibling;
+      if (element) {
+        let next = element.nextElementSibling;
 
-      while (next) {
-        if (next.matches(selector)) {
-          return [next];
+        while (next) {
+          if (next.matches(selector)) {
+            return [next];
+          }
+
+          next = next.nextElementSibling;
         }
-
-        next = next.nextElementSibling;
       }
 
       return [];

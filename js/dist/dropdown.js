@@ -481,7 +481,9 @@
     }
 
     _detectNavbar() {
-      return this._element.closest(`.${CLASS_NAME_NAVBAR}`) !== null;
+      var _this$_element;
+
+      return ((_this$_element = this._element) == null ? void 0 : _this$_element.closest(`.${CLASS_NAME_NAVBAR}`)) !== null;
     }
 
     _getOffset() {
