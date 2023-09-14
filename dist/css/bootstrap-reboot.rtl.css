@@ -96,6 +96,12 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-body-line-height: 1.5;
   --bs-body-color: rgb(69, 69, 69);
   --bs-body-bg: rgb(255, 255, 255);
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
 }
 
 *,

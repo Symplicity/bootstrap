@@ -51,4 +51,9 @@
   --#{$variable-prefix}body-bg: #{$body-bg};
   // scss-docs-end root-body-variables
   // stylelint-enable custom-property-empty-line-before
+
+  // Breakpoints
+  @each $key, $value in $grid-breakpoints {
+    --#{$variable-prefix}breakpoint-#{$key}: #{$value};
+  }
 }
