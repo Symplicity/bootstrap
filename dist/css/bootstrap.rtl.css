@@ -7851,11 +7851,11 @@ textarea.form-control-lg {
   background: var(--bs-primary);
 }
 .list-steps-item.completed .list-steps-item-body::before {
-  content: "";
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-check' width='20' height='20' viewBox='0 0 24 24' stroke-width='2' stroke='%23ffffff' fill='none' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3e%3cpath d='M5 12l5 5l10 -10' /%3e%3c/svg%3e");
   background-color: var(--bs-success);
   background-repeat: no-repeat;
   background-position: center;
+  text-indent: -999999px;
 }
 
 .steps-vertical .list-steps-item:last-child::before {
