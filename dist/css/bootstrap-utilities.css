@@ -41,6 +41,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(14, 98, 185);
 }
 .link-primary:hover {
+  color: rgb(14, 98, 185);
   text-decoration: underline;
 }
 .link-primary:focus {
@@ -55,6 +56,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(69, 69, 69);
 }
 .link-secondary:hover {
+  color: rgb(69, 69, 69);
   text-decoration: underline;
 }
 .link-secondary:focus {
@@ -69,6 +71,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(41, 120, 72);
 }
 .link-success:hover {
+  color: rgb(41, 120, 72);
   text-decoration: underline;
 }
 .link-success:focus {
@@ -83,6 +86,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(11, 91, 161);
 }
 .link-info:hover {
+  color: rgb(11, 91, 161);
   text-decoration: underline;
 }
 .link-info:focus {
@@ -97,6 +101,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(168, 85, 2);
 }
 .link-warning:hover {
+  color: rgb(168, 85, 2);
   text-decoration: underline;
 }
 .link-warning:focus {
@@ -111,6 +116,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(191, 62, 36);
 }
 .link-danger:hover {
+  color: rgb(191, 62, 36);
   text-decoration: underline;
 }
 .link-danger:focus {
@@ -125,6 +131,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(236, 236, 236);
 }
 .link-ultra-light:hover {
+  color: rgb(236, 236, 236);
   text-decoration: underline;
 }
 .link-ultra-light:focus {
@@ -139,6 +146,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(246, 246, 246);
 }
 .link-light:hover {
+  color: rgb(246, 246, 246);
   text-decoration: underline;
 }
 .link-light:focus {
@@ -153,6 +161,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(170, 170, 170);
 }
 .link-medium:hover {
+  color: rgb(170, 170, 170);
   text-decoration: underline;
 }
 .link-medium:focus {
@@ -167,6 +176,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: rgb(69, 69, 69);
 }
 .link-dark:hover {
+  color: rgb(69, 69, 69);
   text-decoration: underline;
 }
 .link-dark:focus {
@@ -181,6 +191,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #fad8e8;
 }
 .link-danger-light:hover {
+  color: #fad8e8;
   text-decoration: underline;
 }
 .link-danger-light:focus {
@@ -195,6 +206,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #cedeec;
 }
 .link-info-light:hover {
+  color: #cedeec;
   text-decoration: underline;
 }
 .link-info-light:focus {
@@ -209,6 +221,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #e5f0e5;
 }
 .link-success-light:hover {
+  color: #e5f0e5;
   text-decoration: underline;
 }
 .link-success-light:focus {
@@ -223,6 +236,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #ffffcc;
 }
 .link-warning-light:hover {
+  color: #ffffcc;
   text-decoration: underline;
 }
 .link-warning-light:focus {

@@ -8236,6 +8236,7 @@ textarea.form-control-lg {
   color: rgb(14, 98, 185);
 }
 .link-primary:hover {
+  color: rgb(14, 98, 185);
   text-decoration: underline;
 }
 .link-primary:focus {
@@ -8250,6 +8251,7 @@ textarea.form-control-lg {
   color: rgb(69, 69, 69);
 }
 .link-secondary:hover {
+  color: rgb(69, 69, 69);
   text-decoration: underline;
 }
 .link-secondary:focus {
@@ -8264,6 +8266,7 @@ textarea.form-control-lg {
   color: rgb(41, 120, 72);
 }
 .link-success:hover {
+  color: rgb(41, 120, 72);
   text-decoration: underline;
 }
 .link-success:focus {
@@ -8278,6 +8281,7 @@ textarea.form-control-lg {
   color: rgb(11, 91, 161);
 }
 .link-info:hover {
+  color: rgb(11, 91, 161);
   text-decoration: underline;
 }
 .link-info:focus {
@@ -8292,6 +8296,7 @@ textarea.form-control-lg {
   color: rgb(168, 85, 2);
 }
 .link-warning:hover {
+  color: rgb(168, 85, 2);
   text-decoration: underline;
 }
 .link-warning:focus {
@@ -8306,6 +8311,7 @@ textarea.form-control-lg {
   color: rgb(191, 62, 36);
 }
 .link-danger:hover {
+  color: rgb(191, 62, 36);
   text-decoration: underline;
 }
 .link-danger:focus {
@@ -8320,6 +8326,7 @@ textarea.form-control-lg {
   color: rgb(236, 236, 236);
 }
 .link-ultra-light:hover {
+  color: rgb(236, 236, 236);
   text-decoration: underline;
 }
 .link-ultra-light:focus {
@@ -8334,6 +8341,7 @@ textarea.form-control-lg {
   color: rgb(246, 246, 246);
 }
 .link-light:hover {
+  color: rgb(246, 246, 246);
   text-decoration: underline;
 }
 .link-light:focus {
@@ -8348,6 +8356,7 @@ textarea.form-control-lg {
   color: rgb(170, 170, 170);
 }
 .link-medium:hover {
+  color: rgb(170, 170, 170);
   text-decoration: underline;
 }
 .link-medium:focus {
@@ -8362,6 +8371,7 @@ textarea.form-control-lg {
   color: rgb(69, 69, 69);
 }
 .link-dark:hover {
+  color: rgb(69, 69, 69);
   text-decoration: underline;
 }
 .link-dark:focus {
@@ -8376,6 +8386,7 @@ textarea.form-control-lg {
   color: #fad8e8;
 }
 .link-danger-light:hover {
+  color: #fad8e8;
   text-decoration: underline;
 }
 .link-danger-light:focus {
@@ -8390,6 +8401,7 @@ textarea.form-control-lg {
   color: #cedeec;
 }
 .link-info-light:hover {
+  color: #cedeec;
   text-decoration: underline;
 }
 .link-info-light:focus {
@@ -8404,6 +8416,7 @@ textarea.form-control-lg {
   color: #e5f0e5;
 }
 .link-success-light:hover {
+  color: #e5f0e5;
   text-decoration: underline;
 }
 .link-success-light:focus {
@@ -8418,6 +8431,7 @@ textarea.form-control-lg {
   color: #ffffcc;
 }
 .link-warning-light:hover {
+  color: #ffffcc;
   text-decoration: underline;
 }
 .link-warning-light:focus {
