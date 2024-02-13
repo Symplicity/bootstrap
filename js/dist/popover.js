@@ -19,21 +19,16 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
-
   const getjQuery = () => {
     const {
       jQuery
     } = window;
-
     if (jQuery && !document.body.hasAttribute('data-bs-no-jquery')) {
       return jQuery;
     }
-
     return null;
   };
-
   const DOMContentLoadedCallbacks = [];
-
   const onDOMContentLoaded = callback => {
     if (document.readyState === 'loading') {
       // add listener on the first call when the document is in loading state
@@ -42,24 +37,20 @@
           DOMContentLoadedCallbacks.forEach(callback => callback());
         });
       }
-
       DOMContentLoadedCallbacks.push(callback);
     } else {
       callback();
     }
   };
-
   const defineJQueryPlugin = plugin => {
     onDOMContentLoaded(() => {
       const $ = getjQuery();
       /* istanbul ignore if */
-
       if ($) {
         const name = plugin.NAME;
         const JQUERY_NO_CONFLICT = $.fn[name];
         $.fn[name] = plugin.jQueryInterface;
         $.fn[name].Constructor = plugin;
-
         $.fn[name].noConflict = () => {
           $.fn[name] = JQUERY_NO_CONFLICT;
           return plugin.jQueryInterface;
@@ -74,6 +65,7 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
+
   /**
    * ------------------------------------------------------------------------
    * Constants
@@ -84,14 +76,16 @@
   const DATA_KEY = 'bs.popover';
   const EVENT_KEY = `.${DATA_KEY}`;
   const CLASS_PREFIX = 'bs-popover';
-  const Default = { ...Tooltip__default.default.Default,
+  const Default = {
+    ...Tooltip__default.default.Default,
     placement: 'right',
     offset: [0, 8],
     trigger: 'click',
     content: '',
     template: '<div class="popover" role="tooltip">' + '<div class="popover-arrow"></div>' + '<h3 class="popover-header"></h3>' + '<div class="popover-body"></div>' + '</div>'
   };
-  const DefaultType = { ...Tooltip__default.default.DefaultType,
+  const DefaultType = {
+    ...Tooltip__default.default.DefaultType,
     content: '(string|element|function)'
   };
   const Event = {
@@ -108,6 +102,7 @@
   };
   const SELECTOR_TITLE = '.popover-header';
   const SELECTOR_CONTENT = '.popover-body';
+
   /**
    * ------------------------------------------------------------------------
    * Class Definition
@@ -116,65 +111,60 @@
 
   class Popover extends Tooltip__default.default {
     // Getters
+
     static get Default() {
       return Default;
     }
-
     static get NAME() {
       return NAME;
     }
-
     static get Event() {
       return Event;
     }
-
     static get DefaultType() {
       return DefaultType;
-    } // Overrides
+    }
 
+    // Overrides
 
     isWithContent() {
       return this.getTitle() || this._getContent();
     }
-
     setContent(tip) {
       this._sanitizeAndSetContent(tip, this.getTitle(), SELECTOR_TITLE);
-
       this._sanitizeAndSetContent(tip, this._getContent(), SELECTOR_CONTENT);
-    } // Private
+    }
 
+    // Private
 
     _getContent() {
       return this._resolvePossibleFunction(this._config.content);
     }
-
     _getBasicClassPrefix() {
       return CLASS_PREFIX;
-    } // Static
+    }
 
+    // Static
 
     static jQueryInterface(config) {
       return this.each(function () {
         const data = Popover.getOrCreateInstance(this, config);
-
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
             throw new TypeError(`No method named "${config}"`);
           }
-
           data[config]();
         }
       });
     }
-
   }
+
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    * add .Popover to jQuery only if jQuery is present
    */
-
 
   defineJQueryPlugin(Popover);
 

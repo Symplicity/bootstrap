@@ -175,7 +175,6 @@
     }
   },
   "dependencies": {
-    "@tabler/icons": "^2.47.0",
     "@symplicity/janus-tokens": "github:Symplicity/janus-tokens"
   }
 }
