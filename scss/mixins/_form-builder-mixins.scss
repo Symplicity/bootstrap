@@ -15,7 +15,7 @@
   @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
   @include transition($btn-transition);
   transform: translateZ(0);
-  min-width: 90px;
+  min-width: $btn-min-width;
 
   &:hover {
     color: $body-color;

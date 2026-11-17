@@ -104,7 +104,6 @@ $fg_notices: (
     @include form-builder-button();
     @include button-outline-variant($secondary);
     @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
-    min-width: $btn-min-width;
   }
   li {
     &.fg_field {
